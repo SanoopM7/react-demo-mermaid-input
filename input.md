@@ -16,3 +16,6 @@ C -->|One| D[Laptop]
 C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
 ```
+@startuml
+Bob -> Alice : hello
+@enduml
