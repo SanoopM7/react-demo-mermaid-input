@@ -11,7 +11,7 @@ C -->|Three| F[fa:fa-car Car]
 # plantuml diagram
 
 ```plantuml
-
+@startuml
 title Retail New Customer Activation
 
 autonumber
@@ -524,8 +524,5 @@ alt Deferred trade-in
     MPOS2 -> TIBCO : [[https://servicecatalog.internal.t-mobile.com/servicecat/tibco/2019-05-18/wsdl_api/html/DeviceTradeInService.html#getShippingLabel TIBCO Shipping_Label]] Generate Shipping label
     TIBCO -[#Green]--> MPOS2 : Success
 end
-
-
-
-
+@enduml
 ```
